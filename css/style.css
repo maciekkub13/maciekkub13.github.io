@@ -4,11 +4,12 @@ h1 {
     text-align: center;
     font-size: 3em;
     font-family: "Courier New", Courier, monospace;
+    font-style: italic
 }
 
 .container {
 
-    padding: 5em
+    padding: 1em 6em
 }
 
 body {
@@ -127,4 +128,20 @@ font-size: 20px;
 
 .paragraph {
     margin: -0.8em 8px
+}
+
+.desc {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.sm {
+    float:right;
+    margin: -2em 2em;
+    padding: -2em 2em
 }

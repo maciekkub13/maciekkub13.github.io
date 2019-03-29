@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <div class="desc">
+        <p>App made to help memorizing 100 pi digits after coma.<br> If you're interested in learning with the method
+            that i've used<br> just visit <a target="_blank"
+                href="https://www.youtube.com/watch?v=mI96Ph-yHcA&t=135s">this link</a></p>
+    </div>
+    <div class="sm">
+        <ul>
+            <li>Any Questions?</li>
+            <li><a target="_blank" href="mailto:maciek.k2001@gmail.com">Email me</a></li>
+        </ul>
+    </div>
     <title>Pi trainer</title>
 </head>
+
 <body>
-    <center><h1>PiTrainer</h1></center><br><br>
+    <center>
+        <h1>PiTrainer</h1>
+    </center><br><br>
     <div class="container"><label class="label">
-    Check your number skills : <input type="text" id="writer" class="input1" placeholder="π = 3.141592653589...">
-    </label>
-    <br><br><br><br><br><br>
+            Check your number skills : <input type="text" id="writer" class="input1"
+                placeholder="π = 3.141592653589...">
+        </label>
+        <br><br><br><br><br><br>
 
 
-    <label class="label">
-    Check your memorized story : <input type="text" id="story" class="input2" placeholder="TR TL BN SHL ML...">
-    </label></div><br>
+        <!-- <label class="label">
+            Check your memorized code : <input type="text" id="story" class="input2" placeholder="TR TL BN SHL ML...">
+        </label></div><br><br><br><br> -->
 
-    <!-- <div>
-        <p class="paragraph">Check your pattern skils</p><br><input id="game" class="game"> Score: 
+    <!-- <div id="mg">
+        <p class="paragraph">Check your pattern skils</p><br><input id="game" class="game"> Score:
     </div> -->
-<br><br>
-<div id="hint" class="hint">To show/hide pattern   <button id="showhide" class="showhide" onclick="myFunction()">Click Me</button></div>
-<div id="myDIV" class="myDIV"><b>0-S,Z | 1-T,D | 2-N | 3-M | 4-R | 5-L | 6-J,SH,CH | 7=C,R | 8=V,F | 9=P,B</b></div>
+    <br><br>
+    <div id="hint" class="hint">To show/hide pattern <button id="showhide" class="showhide" onclick="myFunction()">Click
+            Me</button></div>
+    <div id="myDIV" class="myDIV"><b>0-S,Z | 1-T,D | 2-N | 3-M | 4-R | 5-L | 6-J,SH,CH | 7=C,R | 8=V,F | 9=P,B</b></div>
 
     <div class="przycisk"><label class="pomys">
-       <b> If you're stuck, and you need a hint click here -></b> <button id="button" class="button" >letters</button></label><label class="pomys"><button class="button1" id="button1" >Story</button></label>
+            <b> If you're stuck, and you need a hint click here -></b> <button id="button"
+                class="button">letters</button></label><label class="pomys"><button class="button1"
+                id="button1">Story</button></label>
     </div>
     <script src="pi.js"></script>
 </body>
+
 </html>
