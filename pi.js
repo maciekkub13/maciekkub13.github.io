@@ -17,19 +17,19 @@ document.querySelector('#writer').addEventListener('input', (e) => {
 
 
 
-let story = ' TR TL BN SHL ML VB RB MN MF RJ NJ RM MF MN CP LS NV VR TP CT JP MP PM CL TS LV NS BR RP RR LB NM SR FT JR ZJ NV JN SF BB FCH NV SM RF NL MR ND TR SJ CP'
-document.querySelector('#story').addEventListener('input', (e) => {
-    let input = e.target.value
-    let sSub = story.toString().substring(1, input.length + 1)
-    let isEqual = console.log(input === sSub)
+// let story = ' TR TL BN SHL ML VB RB MN MF RJ NJ RM MF MN CP LS NV VR TP CT JP MP PM CL TS LV NS BR RP RR LB NM SR FT JR ZJ NV JN SF BB FCH NV SM RF NL MR ND TR SJ CP'
+// document.querySelector('#story').addEventListener('input', (e) => {
+//     let input = e.target.value
+//     let sSub = story.toString().substring(1, input.length + 1)
+//     let isEqual = console.log(input === sSub)
 
-    if (input.toUpperCase() !== sSub) {
-        window.alert(`You failed! Try again`)
-        location.reload()
-    } else if (input.toUpperCase() === 'TR TL BN SHL ML VB RB MN MF RJ NJ RM MF MN CP LS NV VR TP CT JP MP PM CL TS LV NS BR RP RR LB NM SR FT JR ZJ NV JN SF BB FCH NV SM RF NL MR ND TR SJ CP') {
-        window.alert('Congrats! You got it all done without any mistake!!')
-    }
-})
+//     if (input.toUpperCase() !== sSub) {
+//         window.alert(`You failed! Try again`)
+//         location.reload()
+//     } else if (input.toUpperCase() === 'TR TL BN SHL ML VB RB MN MF RJ NJ RM MF MN CP LS NV VR TP CT JP MP PM CL TS LV NS BR RP RR LB NM SR FT JR ZJ NV JN SF BB FCH NV SM RF NL MR ND TR SJ CP') {
+//         window.alert('Congrats! You got it all done without any mistake!!')
+//     }
+// })
 
 
 
