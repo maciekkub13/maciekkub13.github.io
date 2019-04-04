@@ -37,9 +37,7 @@ document.querySelector('#button').addEventListener('click', (e) => {
     window.alert('0-S,Z | 1-T,D | 2-N | 3-M | 4-R | 5-L | 6-J,SH,CH | 7=C,R | 8=V,F | 9=P,B')
 })
 
-document.querySelector('#button1').addEventListener('click', (e) => {
-    window.alert('TR TL BN SHL ML VB RB MN MF RJ NJ RM MF MN CP LS NV VR TP CT JP MP PM CL TS LV NS BR RP RR LB NM SR FT JR ZJ NV JN SF BB FCH NV SM RF NL MR ND TR SJ CP')
-})
+
 
 
 function myFunction() {
@@ -53,5 +51,3 @@ function myFunction() {
 
 
 
-
-document.querySelector('#game').addEventListener
